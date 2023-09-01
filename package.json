@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aggshubham6105/demo.git"
+  },
+  "author": "Shubham Aggarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aggshubham6105/demo/issues"
+  },
+  "homepage": "https://github.com/aggshubham6105/demo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
